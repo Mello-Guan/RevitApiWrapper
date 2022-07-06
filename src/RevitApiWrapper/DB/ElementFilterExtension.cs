@@ -118,7 +118,6 @@ namespace RevitApiWrapper.DB
             {
                 return collector.WherePasses(filter).OfType<T>();
             }
-
         }
     }
 }

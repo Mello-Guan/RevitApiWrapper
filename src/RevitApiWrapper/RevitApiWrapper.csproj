@@ -55,10 +55,8 @@
       <BaseOutputPath>..\..\bundle\$(RevitVersion)</BaseOutputPath>
     </PropertyGroup>
 
- <ItemGroup>
-    <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="$(RevitVersion).*">
-      <GeneratePathProperty>False</GeneratePathProperty>
-    </PackageReference>
-  </ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2023.0.0" />
+	</ItemGroup>
 	
 </Project>
