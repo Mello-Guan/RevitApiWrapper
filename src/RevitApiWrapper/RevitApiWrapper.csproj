@@ -1,5 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
 		<LangVersion>preview</LangVersion>
 		<PlatformTarget>x64</PlatformTarget>
 		<Configurations>Debug;Debug2018;Debug2019;Debug2020;Debug2021;Debug2022;Debug2023</Configurations>
@@ -17,6 +18,8 @@
     	<DebugType>none</DebugType>
     	<DefineConstants>$(DefineConstants);RELEASE</DefineConstants>
   </PropertyGroup>
+  
+ 
 
 	<PropertyGroup Condition="$(Configuration.Contains('2018'))">
 		<RevitVersion>2018</RevitVersion>
